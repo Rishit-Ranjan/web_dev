@@ -20,8 +20,8 @@ let gameStates = []; // Array to store snapshots of the game state
 let currentStateIndex = -1; // Index of the current state in gameStates
 
 // Variables for Timers
-let whiteTime = 5 * 60; // 5 minutes in seconds
-let blackTime = 5 * 60; // 5 minutes in seconds
+let whiteTime = 10 * 60; // 5 minutes in seconds
+let blackTime = 10 * 60; // 5 minutes in seconds
 let timerInterval = null; // Holds the interval ID for the timer
 let gameActive = false; // Flag to indicate if the game is ongoing (for timers)
 
